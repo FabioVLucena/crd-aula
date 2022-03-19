@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca de Aeon</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-principal">
+                <img class="imagem-principal" src="img/logo-principal.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <form id="form-adicionar">
+                <div class="input-adicionar">
+                    <input id="livro" name="livro" type="text" placeholder="Livro Nome" class="campo">
+                    <input id="autor" name="autor" type="text" placeholder="Livro Autor" class="campo">
+                </div>
+                <div class="botao-adicionar">
+                    <button id="adicionar-livro" class="botao bto-principal">Adicionar</button>
+                </div>
+            </form>
+            
+            <table>
+                <h1 class="titulo">Biblioteca Livros</h1>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Autor</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-pacientes">
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Paulo</td>
+                        <td class="info-autor">100</td>
+                    </tr>
+
+                    <tr class="paciente" >
+                        <td class="info-nome">João</td>
+                        <td class="info-autor">80</td>
+                    </tr>
+
+                    <tr class="paciente" >
+                        <td class="info-nome">Erica</td>
+                        <td class="info-autor">54</td>
+                    </tr>
+
+                    <tr class="paciente">
+                        <td class="info-nome">Douglas</td>
+                        <td class="info-autor">85</td>
+                    </tr>
+                    <tr class="paciente" >
+                        <td class="info-nome">Tatiana</td>
+                        <td class="info-autor">46</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>    
+    </main>
+
+    <script src="js/converter-livro.js" ></script>
+    <script src="js/adicionar.js" ></script>
+    <script src="js/remover.js" ></script>
+
+</body>
+</html>
+
